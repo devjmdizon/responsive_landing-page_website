@@ -88,7 +88,7 @@ body {
   display: grid;
   justify-content: space-between;
   align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(535px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   gap: 2rem;
 }
 
@@ -97,7 +97,7 @@ section {
 }
 
 .hero-img {
-  width: 750px;
+  width: 700px;
   height: auto;
 }
 .hero-title {
@@ -113,9 +113,43 @@ section {
   color: #d9743b;
 }
 
+.text-content-hero h1 {
+  font-size: 35px;
+}
+
 .text-content-hero p {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 100;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+}
+
+.text-content-hero a {
+  background: #282673;
+  color: white;
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: all 0.55s ease;
+}
+
+.text-content-hero a:hover {
+  background: transparent;
+  border: 1px solid white;
+  transform: translateX(8p);
+}
+
+.icons i {
+  color: white;
+  display: block;
+  margin: 30px 0;
+  transition: a;; .50s;
+}
+
+.icons {
+  position: absolute;
+  top: 50%;
+  padding: 0 9%;
+  transform: translateY(-50%);
+  font-size:20px;
 }
